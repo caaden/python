@@ -1,0 +1,191 @@
+console.ts:134 [Extension Host] Python Extension: Generating custom default config at /tmp/ef1902c6-3892-4e58-877d-8e77b6eaf0cc/jupyter_notebook_config.py
+console.ts:134 [Extension Host] Python Extension: Error: Error executing Jupyter command 'kernelspec': [Errno 2] No such file or directory
+
+t.log @ console.ts:134
+t._logExtensionHostMessage @ extensionHost.ts:453
+(anonymous) @ extensionHost.ts:244
+emitTwo @ events.js:126
+emit @ events.js:214
+emit @ internal/child_process.js:772
+_combinedTickCallback @ internal/process/next_tick.js:141
+_tickCallback @ internal/process/next_tick.js:180
+console.ts:134 [Extension Host] Python Extension: Error: /usr/bin/python: No module named jupyter
+
+t.log @ console.ts:134
+t._logExtensionHostMessage @ extensionHost.ts:453
+(anonymous) @ extensionHost.ts:244
+emitTwo @ events.js:126
+emit @ events.js:214
+emit @ internal/child_process.js:772
+_combinedTickCallback @ internal/process/next_tick.js:141
+_tickCallback @ internal/process/next_tick.js:180
+console.ts:134 [Extension Host] Python Extension: Error: Error executing Jupyter command 'kernelspec': [Errno 2] No such file or directory
+
+t.log @ console.ts:134
+t._logExtensionHostMessage @ extensionHost.ts:453
+(anonymous) @ extensionHost.ts:244
+emitTwo @ events.js:126
+emit @ events.js:214
+emit @ internal/child_process.js:772
+_combinedTickCallback @ internal/process/next_tick.js:141
+_tickCallback @ internal/process/next_tick.js:180
+console.ts:134 [Extension Host] Python Extension: Error: Error executing Jupyter command 'kernelspec': [Errno 2] No such file or directory
+
+t.log @ console.ts:134
+t._logExtensionHostMessage @ extensionHost.ts:453
+(anonymous) @ extensionHost.ts:244
+emitTwo @ events.js:126
+emit @ events.js:214
+emit @ internal/child_process.js:772
+_combinedTickCallback @ internal/process/next_tick.js:141
+_tickCallback @ internal/process/next_tick.js:180
+console.ts:134 [Extension Host] Python Extension: Error: [Errno 13] Permission denied: '/home/caden/.local/share/jupyter/kernels'
+Perhaps you want `sudo` or `--user`?
+
+t.log @ console.ts:134
+t._logExtensionHostMessage @ extensionHost.ts:453
+(anonymous) @ extensionHost.ts:244
+emitTwo @ events.js:126
+emit @ events.js:214
+emit @ internal/child_process.js:772
+_combinedTickCallback @ internal/process/next_tick.js:141
+_tickCallback @ internal/process/next_tick.js:180
+console.ts:134 [Extension Host] Python Extension: Error: Error executing Jupyter command 'kernelspec': [Errno 2] No such file or directory
+
+t.log @ console.ts:134
+t._logExtensionHostMessage @ extensionHost.ts:453
+(anonymous) @ extensionHost.ts:244
+emitTwo @ events.js:126
+emit @ events.js:214
+emit @ internal/child_process.js:772
+_combinedTickCallback @ internal/process/next_tick.js:141
+_tickCallback @ internal/process/next_tick.js:180
+console.ts:134 [Extension Host] Python Extension: Error: /usr/bin/python: No module named jupyter
+
+t.log @ console.ts:134
+t._logExtensionHostMessage @ extensionHost.ts:453
+(anonymous) @ extensionHost.ts:244
+emitTwo @ events.js:126
+emit @ events.js:214
+emit @ internal/child_process.js:772
+_combinedTickCallback @ internal/process/next_tick.js:141
+_tickCallback @ internal/process/next_tick.js:180
+console.ts:134 [Extension Host] Python Extension: Error: Error executing Jupyter command 'kernelspec': [Errno 2] No such file or directory
+
+t.log @ console.ts:134
+t._logExtensionHostMessage @ extensionHost.ts:453
+(anonymous) @ extensionHost.ts:244
+emitTwo @ events.js:126
+emit @ events.js:214
+emit @ internal/child_process.js:772
+_combinedTickCallback @ internal/process/next_tick.js:141
+_tickCallback @ internal/process/next_tick.js:180
+console.ts:134 [Extension Host] Python Extension: Error: Error executing Jupyter command 'kernelspec': [Errno 2] No such file or directory
+
+t.log @ console.ts:134
+t._logExtensionHostMessage @ extensionHost.ts:453
+(anonymous) @ extensionHost.ts:244
+emitTwo @ events.js:126
+emit @ events.js:214
+emit @ internal/child_process.js:772
+_combinedTickCallback @ internal/process/next_tick.js:141
+_tickCallback @ internal/process/next_tick.js:180
+console.ts:134 [Extension Host] Python Extension: [I 08:01:35.243 NotebookApp] The port 8888 is already in use, trying another port.
+
+console.ts:134 [Extension Host] Python Extension: [I 08:01:35.249 NotebookApp] Serving notebooks from local directory: /tmp/ef1902c6-3892-4e58-877d-8e77b6eaf0cc
+[I 08:01:35.249 NotebookApp] The Jupyter Notebook is running at:
+
+console.ts:134 [Extension Host] Python Extension: [I 08:01:35.249 NotebookApp] http://localhost:8889/?token=1464f618d41bdfb8796c52ca7cc50fb1cdd24a33a03aaad8
+[I 08:01:35.249 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+
+console.ts:134 [Extension Host] Python Extension: [C 08:01:35.252 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-26782-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=1464f618d41bdfb8796c52ca7cc50fb1cdd24a33a03aaad8
+
+console.ts:134 [Extension Host] Python Extension: [I 08:01:35.595 NotebookApp] Creating new notebook in /
+
+console.ts:134 [Extension Host] Python Extension: [W 08:01:35.598 NotebookApp] The signatures database cannot be opened; maybe it is corrupted or encrypted. You may need to rerun your notebooks to ensure that they are trusted to run Javascript. The old signatures database has been renamed to /home/caden/.local/share/jupyter/nbsignatures.db.bak and a new one has been created.
+
+console.ts:134 [Extension Host] Python Extension: [W 08:01:35.599 NotebookApp] Failed commiting signatures database to disk. You may need to move the database file to a non-networked file system, using config option `NotebookNotary.db_file`. Using in-memory signatures database for the remainder of this session.
+
+console.ts:134 [Extension Host] Python Extension: [I 08:01:35.599 NotebookApp] Writing notebook-signing key to /home/caden/.local/share/jupyter/notebook_secret
+
+console.ts:134 [Extension Host] Python Extension: [E 08:01:35.600 NotebookApp] Error while saving file: Untitled.ipynb [Errno 13] Permission denied: '/home/caden/.local/share/jupyter/notebook_secret'
+    Traceback (most recent call last):
+      File "/usr/lib/python3/dist-packages/traitlets/traitlets.py", line 528, in get
+        value = obj._trait_values[self.name]
+    KeyError: 'secret'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.6/dist-packages/notebook/services/contents/filemanager.py", line 470, in save
+        self.check_and_sign(nb, path)
+      File "/usr/local/lib/python3.6/dist-packages/notebook/services/contents/manager.py", line 487, in check_and_sign
+        self.notary.sign(nb)
+      File "/usr/lib/python3/dist-packages/nbformat/sign.py", line 448, in sign
+        signature = self.compute_signature(nb)
+      File "/usr/lib/python3/dist-packages/nbformat/sign.py", line 413, in compute_signature
+        hmac = HMAC(self.secret, digestmod=self.digestmod)
+      File "/usr/lib/python3/dist-packages/traitlets/traitlets.py", line 556, in __get__
+        return self.get(obj, cls)
+      File "/usr/lib/python3/dist-packages/traitlets/traitlets.py", line 535, in get
+        value = self._validate(obj, dynamic_default())
+      File "/usr/lib/python3/dist-packages/nbformat/sign.py", line 387, in _secret_default
+        self._write_secret_file(secret)
+      File "/usr/lib/python3/dist-packages/nbformat/sign.py", line 397, in _write_secret_file
+        with io.open(self.secret_file, 'wb') as f:
+    PermissionError: [Errno 13] Permission denied: '/home/caden/.local/share/jupyter/notebook_secret'
+
+console.ts:134 [Extension Host] Python Extension: [W 08:01:35.601 NotebookApp] 500 POST /api/contents/?1548162095590 (127.0.0.1): Unexpected error while saving file: Untitled.ipynb [Errno 13] Permission denied: '/home/caden/.local/share/jupyter/notebook_secret'
+
+console.ts:134 [Extension Host] Python Extension: [W 08:01:35.601 NotebookApp] Unexpected error while saving file: Untitled.ipynb [Errno 13] Permission denied: '/home/caden/.local/share/jupyter/notebook_secret'
+
+console.ts:134 [Extension Host] Python Extension: Error: Failed to connect to Jupyter notebook. 
+http://localhost:8889/
+t.log @ console.ts:134
+t._logExtensionHostMessage @ extensionHost.ts:453
+(anonymous) @ extensionHost.ts:244
+emitTwo @ events.js:126
+emit @ events.js:214
+emit @ internal/child_process.js:772
+_combinedTickCallback @ internal/process/next_tick.js:141
+_tickCallback @ internal/process/next_tick.js:180
+notificationsAlerts.ts:40 Failed to connect to Jupyter notebook.  http://localhost:8889/
+t.onDidNotificationChange @ notificationsAlerts.ts:40
+(anonymous) @ notificationsAlerts.ts:26
+e.fire @ event.ts:228
+t.notify @ notifications.ts:113
+t.notify @ notificationService.ts:52
+e._showMessage @ mainThreadMessageService.ts:83
+e._showMessage @ mainThreadMessageService.ts:44
+e.$showMessage @ mainThreadMessageService.ts:38
+t._doInvokeHandler @ rpcProtocol.ts:461
+t._invokeHandler @ rpcProtocol.ts:446
+t._receiveRequest @ rpcProtocol.ts:366
+t._receiveOneMessage @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:171
+e.fire @ event.ts:228
+a @ ipc.net.ts:103
+n._socketDataListener @ ipc.net.ts:132
+emitOne @ events.js:116
+emit @ events.js:211
+addChunk @ _stream_readable.js:263
+readableAddChunk @ _stream_readable.js:250
+Readable.push @ _stream_readable.js:208
+onread @ net.js:594
+console.ts:134 [Extension Host] Python Extension: [E 08:01:35.602 NotebookApp] {
+      "Authorization": "token 1464f618d41bdfb8796c52ca7cc50fb1cdd24a33a03aaad8",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip,deflate",
+      "User-Agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)",
+      "Connection": "close",
+      "Accept": "*/*",
+      "Content-Length": "19",
+      "Host": "localhost:8889"
+    }
+[E 08:01:35.602 NotebookApp] 500 POST /api/contents/?1548162095590 (127.0.0.1) 7.97ms referer=None
+
