@@ -1,0 +1,40 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "make exe",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o","myExe.exe","vector_python.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+        },
+        {
+            "label": "make library",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-c","-fpic","vector_python.cpp"
+            ]
+        },
+        {
+            "label": "make shared library",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-shared","-o","vector_python.so","vector_python.o"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "dependsOn":["make library"]
+        }
+    ]
+}
