@@ -8,7 +8,7 @@ async def count():
     print ('one')
     # await passes control back to event loop and suspends the operation of the surrounding coroutine
     # asyncio.sleep() is a stand-in for a non-blocking real process 
-    # will suspend curring count, pass controll back to main.  Then return to count() after wait.  
+    # will suspend current count, pass controll back to main.  Then return to count() after wait.  
     # note: sleep.time() is blocking
     await asyncio.sleep(1)
     print('two')

@@ -47,21 +47,21 @@ async def main(nprod: int, ncon: int):
     producers=[asyncio.create_task(produce(n,q)) for n in range(nprod)]
     # spawn consumers
     consumers=[asyncio.create_task(consume(n,q)) for n in range(ncon)]
-    # gather all producer coroutines (like join)
+    # add all producers to the event loop
     await asyncio.gather(*producers)
-    await q.join() #implicitly await consumers too
-    for c in consumers: #dismiss consumers when job is done
-        c.cancel() 
+    # await q.join() #implicitly await consumers too
+    # for c in consumers: #dismiss consumers when job is done
+    #     c.cancel() 
 
 if __name__=="__main__":
     import argparse
     random.seed(444)
     parser=argparse.ArgumentParser()
     parser.add_argument('-p','--nprod',type=int,default=5)
-    parser.add_argument('-c','--ncon',type=int,default=10)
+    parser.add_argument('-c','--ncon',type=int,default=5)
     ns=vars(parser.parse_args())
     start=time.perf_counter()
-    # uses asyncio.run instead of await
+    # uses asyncio.run to initiate the main event loop
     asyncio.run(main(ns['nprod'],ns['ncon']))
     elapsed=time.perf_counter()-start
     print(f'Program completed in {elapsed:0.5f} seconds.')

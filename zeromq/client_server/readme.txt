@@ -1,0 +1,12 @@
+Client/Server
+    -most basic pattern
+    -client sends request (REQ)
+    -server responds (RES)
+    -zmq REQ sockets can connect to many servers
+        -REQ is a client definition
+        -if two servers, the requests will be interleaved or distributed to both servers
+    -unlike PAIR, Client/Server will block
+        -for PAIR, any number of messages sent between peers
+        -each Request/Reply is paired and must be successful
+        -socket zmq.REQ will block on send() unless it recieved a reply back
+        -socket zmq.REP will block on recv() unless it has received a request

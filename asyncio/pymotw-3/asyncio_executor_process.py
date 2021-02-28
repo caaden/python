@@ -74,7 +74,7 @@ if __name__=='__main__':
     executor=concurrent.futures.ProcessPoolExecutor(
         max_workers=3,
     )
-    # initialize the event loop for concurrent exectution of blocking tass
+    # initialize the event loop for concurrent exectution of blocking tasks
     event_loop=asyncio.get_event_loop()
     try:
         # run blocking tasks

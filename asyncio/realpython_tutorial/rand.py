@@ -31,6 +31,7 @@ async def makerandom(idx: int, threshold: int=6) -> int:     # -> defines return
 
 async def main():
     # event loop starts 3 new coroutines, and waits for them to finish
+    # main awaits on "gather"
     res = await asyncio.gather(*(makerandom(i,10-i-1) for i in range(3)))
     return res
 

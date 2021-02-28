@@ -1,4 +1,5 @@
 async def mygen(u: int=10):
+    # returns i, then waits 
     i=0
     while i<u:
         print(i)
